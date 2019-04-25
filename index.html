@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" type="text/css" rel="stylesheet"></link>
+        <script type="text/javascript" src="script.js"></script>
+    <title> Joannas side </title>
+<script>
+  function changeImage()
+{
+element=document.getElementById('example')
+if (element.src.match("https://www.redwallpapers.com/public/redwallpapers-large-thumb/sea-waves-black-surface-water-free-stock-photo-image-wallpaper.jpg"))
+  {
+  element.src="https://www.crccasia.com/wp-content/uploads/2018/05/_20180529160156-1-e1527585813431.jpg";
+    ;
+  }
+else if (element.src.match("http://www.digitalmusicnews.com/wp-content/uploads/2017/05/psy_BTS.jpg"))
+  {
+         
+  element.src="https://www.redwallpapers.com/public/redwallpapers-large-thumb/sea-waves-black-surface-water-free-stock-photo-image-wallpaper.jpg";
+         
+  }
+  else if (element.src.match("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kpop-1550876387.png")){
+    element.src="http://www.digitalmusicnews.com/wp-content/uploads/2017/05/psy_BTS.jpg"
+  }
+  
+  else {
+    element.src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kpop-1550876387.png";
+  }
+}
+
+</script>
+</head>
+<body>
+<iframe audio style="display:none;" scrolling="no" frameborder="no" allow="autoplay" loop src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606106938&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+ 
+  <img id="example" onclick="changeImage()" src="https://www.crccasia.com/wp-content/uploads/2018/05/_20180529160156-1-e1527585813431.jpg" width="100%" height="100%">
+
+  <div class="centered"> 축하하다 <br>
+      מַזָּל טוֹב     <br>  مُبَارَك</div>
+
+
+</body>
+</html>

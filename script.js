@@ -3,7 +3,7 @@
 element=document.getElementById('example')
 if (element.src.match(/*4*/"https://raw.githubusercontent.com/sarabolindberg/Til-Joanna/master/billede4.jpg"))
   {
-  element.src=/*1*/"https://github.com/sarabolindberg/Til-Joanna/blob/master/image1.png?raw=true";
+  element.src=/*1*/"https://github.com/sarabolindberg/Til-Joanna/blob/master/test1.jpg?raw=true";
     ;
   }
 else if (element.src.match(/*3*/"https://raw.githubusercontent.com/sarabolindberg/Til-Joanna/master/billede3.jpg"))

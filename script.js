@@ -3,7 +3,7 @@
 element=document.getElementById('example')
 if (element.src.match(/*4*/"https://raw.githubusercontent.com/sarabolindberg/Til-Joanna/master/billede4.jpg"))
   {
-  element.src=/*1*/"https://indd.adobe.com/view/ea1ec3e8-ec99-4e74-87f7-dccf3e1d6ad8";
+  element.src=/*1*/"https://github.com/sarabolindberg/Til-Joanna/blob/master/image1.png?raw=true";
     ;
   }
 else if (element.src.match(/*3*/"https://raw.githubusercontent.com/sarabolindberg/Til-Joanna/master/billede3.jpg"))

@@ -3,7 +3,7 @@
 element=document.getElementById('example')
 if (element.src.match("https://www.redwallpapers.com/public/redwallpapers-large-thumb/sea-waves-black-surface-water-free-stock-photo-image-wallpaper.jpg"))
   {
-  element.src="https://www.crccasia.com/wp-content/uploads/2018/05/_20180529160156-1-e1527585813431.jpg";
+  element.src="image_1";
     ;
   }
 else if (element.src.match("http://www.digitalmusicnews.com/wp-content/uploads/2017/05/psy_BTS.jpg"))

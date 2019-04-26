@@ -1,22 +1,22 @@
   function changeImage()
 {
 element=document.getElementById('example')
-if (element.src.match(/*4*/"https://raw.githubusercontent.com/sarabolindberg/Til-Joanna/master/image4.jpg"))
+if (element.src.match(/*4*/"https://www.redwallpapers.com/public/redwallpapers-large-thumb/sea-waves-black-surface-water-free-stock-photo-image-wallpaper.jpg"))
   {
-  element.src=/*1*/"https://github.com/sarabolindberg/Til-Joanna/blob/master/test1.jpg?raw=true";
+  element.src=/*1*/"https://www.crccasia.com/wp-content/uploads/2018/05/_20180529160156-1-e1527585813431.jpg";
     ;
   }
-else if (element.src.match(/*3*/"https://github.com/sarabolindberg/Til-Joanna/blob/master/image3.jpg?raw=true"))
+else if (element.src.match(/*3*/"http://www.digitalmusicnews.com/wp-content/uploads/2017/05/psy_BTS.jpg"))
   {
          
-  element.src=/*4*/"https://raw.githubusercontent.com/sarabolindberg/Til-Joanna/master/image4.jpg";
+  element.src=/*4*/"https://www.redwallpapers.com/public/redwallpapers-large-thumb/sea-waves-black-surface-water-free-stock-photo-image-wallpaper.jpg";
          
   }
-  else if (element.src.match(/*2*/"https://raw.githubusercontent.com/sarabolindberg/Til-Joanna/master/image2.jpg")){
-    element.src=/*3*/"https://github.com/sarabolindberg/Til-Joanna/blob/master/image3.jpg?raw=true"
+  else if (element.src.match(/*2*/"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kpop-1550876387.png")){
+    element.src=/*3*/"http://www.digitalmusicnews.com/wp-content/uploads/2017/05/psy_BTS.jpg"
   }
   
   else {
-    element.src=/*2*/"https://raw.githubusercontent.com/sarabolindberg/Til-Joanna/master/image2.jpg";
+    element.src=/*2*/"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kpop-1550876387.png";
   }
 }
